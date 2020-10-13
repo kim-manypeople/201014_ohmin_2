@@ -1,0 +1,312 @@
+html{background-color: #ffffff;}
+body {font-family: 'Ubuntu', sans-serif;}
+p{ font-size: 1em }
+@-webkit-keyframes manypeople{
+	0%{
+		transform: rotate(3deg);
+	}
+
+	50%{transform: rotate(-13deg);}
+	100%{
+		transform: rotate(130deg);
+		margin-left: 400px;
+	}
+}
+
+
+
+@-webkit-keyframes manypeople4{
+	0%{
+		padding-top: 0px;
+	}
+	
+	
+	100%{
+		padding-top: 415px;
+	}
+}
+
+@-webkit-keyframes manypeople5{
+	0%{
+		padding-top: 0px;
+
+	}
+	
+	100%{
+		padding-top: 280px;
+	}
+}
+
+@-webkit-keyframes manypeople6{
+	0%{
+		padding-top: 0px;
+		transform: rotate(0deg);
+	}
+	
+	100%{
+		padding-top: 200px;
+		transform: rotate(10deg);
+	}
+}
+
+
+
+.title{ padding-top: 5px;
+	padding-left: 20px; 
+	padding-bottom: 5px;}
+.upper-box {
+	width: 100%;
+	height: 11%;
+	background-color:#4e4e4e;
+	color: white
+}
+
+.column{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	column-count: 4;
+	column-width: 25% ;
+	column-gap: 0px;
+}
+
+.ant{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 100px;
+	
+}
+.ant2{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 400px;
+	
+}
+.ant3{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 300px;
+	
+}
+.ant4{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 600px;
+	
+}
+.ant5{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 900px;
+	
+}
+.ant6{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 600px;
+	
+}
+
+
+
+
+.act4/*괄호 위 모션*/{
+	animation-name:manypeople4;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.act5/*괄호 아래 모션*/{
+	animation-name:manypeople5;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.act6/*q 모션*/{
+	animation-name:manypeople6;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.q{
+  position: absolute;
+  left: 857px;
+  top: 400px;
+  z-index: 2;
+
+
+}
+
+
+.box2{
+	margin-left: 25%;
+	height: 830px;
+	width: 20px; 
+	background-color: black;
+	
+	z-index: 1;
+}
+
+.box3-1{
+	width: 75px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	z-index: 1;
+}
+
+.box3-2{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 153px;
+	z-index: 1;
+}
+
+.box3-3{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 226px;
+	z-index: 1;
+}
+
+.box3-3{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 226px;
+	z-index: 1;
+}
+
+.box3-4{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 299px;
+	z-index: 1;
+}
+.box3-5{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 372px;
+	z-index: 1;
+}
+.box3-6{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 445px;
+	z-index: 1;
+}
+.box3-7{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 518px;
+	z-index: 1;
+}
+.box3-8{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 591px;
+	z-index: 1;
+
+	
+}
+
+.box3-9{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 664px;
+	z-index: 1;
+}
+.box3-10{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 737px;
+	z-index: 1;
+}
+.box3-11{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 810px;
+	z-index: 1;
+}
+
+.box3-12{
+	width: 75px;
+	height: 62px;
+	background-color: black;
+	position: absolute;
+	left: 851px;
+	top: 883px;
+	z-index: 1;
+}
+
+
+
+.isolate {
+  isolation: isolate;
+}
+.score{
+	width: 430px;
+	height: 300px;
+	position: absolute;
+	left: 75%;
+	}
+
+.score-2{
+	width: 430px;
+	height: 300px;
+	position: absolute;
+	left: 75%;
+	top: 60%;}
+
+	.p{
+		width: 360px;
+		height: 230px;
+		position: absolute;
+		left: 78%;
+		top: 45%;
+		}
